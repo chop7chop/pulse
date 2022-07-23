@@ -28,4 +28,13 @@
         font-size: 16px;
         line-height: 25px;
     }
+    &_buy {
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 0;
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
+    }
 }
