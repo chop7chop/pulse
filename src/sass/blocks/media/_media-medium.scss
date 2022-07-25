@@ -1,9 +1,13 @@
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .container {
+		max-width: 540px;
+	}
     .header {
         &__logo {
-            width: 200px;
+            width: 190px;
         }
         &__official {
+            display: none;
             font-size: 12px;
         }
         span {
@@ -15,8 +19,8 @@
         }
     }
     .promo {
-        min-height: 500px;
-        padding: 20px 10px 25px 10px;
+        min-height: 100%;
+        padding: 20px 0px 25px 0px;
         &__wrapper {
             margin-top: 60px;
             display: flex;
@@ -57,14 +61,23 @@
             font-size: 16px;
             line-height: 25px;
         }
+        &_buy {
+            width: 145px;
+            height: 44px;
+            font-size: 16px;
+        }
     }
     .advantages {
         padding: 40px 0;
         &__wrapper {
             margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         &__item {
-            width: 225px;
+            width: 100%;
+            margin-bottom: 20px;
         }
         &__icon {
             width: 60px;
@@ -72,11 +85,11 @@
         }
         &__subtitle {
             margin-top: 20px;
-            font-size: 16px;
+            font-size: 18px;
         }
         &__descr {
             margin-top: 13px;
-            font-size: 13px;
+            font-size: 14px;
         }
     }
     .title {
@@ -120,6 +133,45 @@
                 margin-bottom: 25px;
             }
         }
+    }
+    .carousel {
+        .slick-prev , .slick-next {
+            img {
+                display: none;
+            }
+            
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        &-item {
+            &__subtitle {
+                font-size: 17px;
+            }
+            &__descr {
+                font-size: 15px;
+            }
+            &__price {
+                font-size: 15px;
+            }
+        }
+       
+    }
+    .reviews {
+        &__block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__feed {
+            margin-top: 10px;
+            margin-left: 0;
+            padding-right: 0;
+        }
+        
+    }
+    .footer {
+        
     }
 }
 

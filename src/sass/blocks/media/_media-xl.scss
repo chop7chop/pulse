@@ -1,3 +1,18 @@
 @media (max-width: 1200px) {
-
+    .container {
+		max-width: 920px;
+	}
+    .title_left {
+        font-size: 34px;
+    }
+    .catalog {
+        &__content {
+            display: none;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            &_active {
+                display: flex;
+            }
+        }
+    }
 }

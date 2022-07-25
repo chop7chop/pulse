@@ -1,9 +1,13 @@
 .carousel {
-    padding: 81px 0 81px 0;
+    padding: 81px 0;
     &__inner {
         position: relative;
-        width: 750px;
+        max-width: 750px;
         margin: 0 auto;
+        img {
+            width: 90%;
+            margin: 0 auto;
+        }
     }
     .slick-prev , .slick-next {
         cursor: pointer;
