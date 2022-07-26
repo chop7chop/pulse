@@ -174,4 +174,20 @@
             font-size: 18px;
         }
     }
+    .modal {
+        width: 320px;
+        padding: 30px 5px 35px 5px;
+        &__close {
+            font-weight: bold;
+            right: 5px;
+            top: 5px;
+            font-size: 35px;
+        }
+        &__subtitle {
+            font-size: 17px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
 }

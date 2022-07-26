@@ -170,8 +170,15 @@
         }
         
     }
-    .footer {
-        
+    .modal {
+        width: 350px;
+        padding: 30px 25px 35px 25px;
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
     }
 }
 
