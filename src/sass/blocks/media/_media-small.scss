@@ -147,6 +147,11 @@
             margin-top: 35px;
             margin-bottom: 35px;
         }
+        &-item {
+            &__descr {
+                font-size: 14px;
+            }
+        }
     }
     .reviews{
         &__block {
